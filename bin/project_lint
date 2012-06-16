@@ -1,0 +1,17 @@
+#!/bin/bash
+
+if grep -q "jbehave" pom.xml; then
+	echo "+ Migrate from jbehave to cucumber-jvm"
+fi
+
+
+##!/usr/bin/env ruby
+##
+##  Created on 2012-6-16.
+##  Copyright (c) 2012. All rights reserved.
+# 
+# require 'rubygems'
+# require File.expand_path(File.dirname(__FILE__) + "/../lib/project_lint")
+# require "project_lint/cli"
+# 
+# ProjectLint::CLI.execute(STDOUT, ARGV)
